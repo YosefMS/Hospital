@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>صفحة الطبيب</title>
+  <link rel="stylesheet" href="/styles/mario.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="doctor-info">
+      <img src="/images/imgesdr/دكتور اسماعيل .webp" alt="صورة الطبيب">
+      <h2>دكتور إسماعيل أبو الفتوح</h2>
+      <p>أستاذ أمراض النساء والتوليد</p>
+      <p>متخصص في: أطفال الأنابيب، الحقن المجهري،..</p>
+      <p>العنوان: 2 ش أحمد المليحي الدقي، ميدان فيني</p>
+      <p>رقم الهاتف: 01066008183</p>
+      <p>سعر الكشف: 400 جنيه</p>
+    </div>
+    <div class="contact-form">
+      <h3>راسل الطبيب</h3>
+      <form id="contactForm">
+        <a href=""></a>
+        <label for="message">رسالتك:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">إرسال</button>
+      </form>
+    </div>
+
+
+    <div class="rating-section">
+      <h3>تقييمك للطبيب</h3>
+      <div id="star-rating">
+        <span class="star" data-value="1">★</span>
+        <span class="star" data-value="2">★</span>
+        <span class="star" data-value="3">★</span>
+        <span class="star" data-value="4">★</span>
+        <span class="star" data-value="5">★</span>
+
+      </div>
+      <form id="reviewForm">
+        <label for="review">اكتب تقييمك:</label>
+        <textarea id="review" name="review" rows="4" required></textarea>
+        <button type="submit">إرسال التقييم</button>
+      </form>
+    </div>
+
+    <div class="overall-rating">
+      <h3>التقييم العام للطبيب: <span id="average-rating">0</span> / 5</h3>
+    </div>
+
+    <div class="reviews-container">
+      <h3>آراء المستخدمين</h3>
+      <div id="reviews"></div>
+    </div>
+  </div>
+  <script src="../../scripts/ismailabualfotouh.js"></script></body>
+
+</html>

@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.doctor-info img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.rating-section, .overall-rating, .reviews-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#star-rating {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 25px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.star.selected,
+.star:hover,
+.star:hover ~ .star {
+  color: #ffc107;
+}
+
+.reviews-container {
+  border-top: 2px solid #ddd;
+  padding-top: 20px;
+}
+
+.review-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.review-card h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #007bff;
+}
+
+.review-card p {
+  margin: 5px 0 0;
+}

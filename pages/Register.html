@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Hospital</title>
+    <link rel="stylesheet" href="../styles/Login-style-shah.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="Header">
+        <a href="../index.html" class="HomeButton">
+            <i class="fas fa-home"></i></a>
+    </div>
+    <div class="FormContainer RegisterContainer">
+        <h1>Register</h1>
+        <form action="#" method="post">
+            <div class="InputGroup">
+                <label for="username">Username</label>
+                <div class="InputWrapper">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                </div>
+            </div>
+
+            <div class="InputGroup">
+                <label for="email">Email</label>
+                <div class="InputWrapper">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+
+            <div class="InputGroup">
+                <label for="password">Password</label>
+                <div class="InputWrapper">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+            </div>
+
+            <div class="InputGroup">
+                <label for="confirm-password">Confirm Password</label>
+                <div class="InputWrapper">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="confirm-password" name="confirm-password"
+                        placeholder="Confirm your password" required>
+                </div>
+            </div>
+
+            <button type="submit" class="SubmitButton">Register</button>
+        </form>
+        <p class="AlternateOption">Already have an account? <a href="../pages/Login.html">Login here</a></p>
+    </div>
+</body>
+
+</html>

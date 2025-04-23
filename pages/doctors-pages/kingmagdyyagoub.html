@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>page for Dr/mario</title>
+  <link rel="stylesheet" href="/styles/mario.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="doctor-info">
+      <img src="/images/imgesdr/img_4838.jpg" alt="img for doc">
+      <h2>Dr\Mojaddidi Jacob</h2>
+
+      <p>
+      <p>Specialty:Heart surgery </p>
+      <p>Currently in his last year, God willing, he will graduate and treat us all</p>
+      <p>Address:minya :samalut, shabri</p>
+      <p>Phone:0121266336**</p>
+      <p>Email: gad@example.com</ </p>
+
+
+      <p>Detection price:0 pound</p>
+    </div>
+    <div class="contact-form">
+      <h3>send to doc</h3>
+      <form id="contactForm">
+        <label>
+          write your massage:
+          <textarea id="message"></textarea>
+        </label>
+        <button onclick="sendToWhatsApp()">send your massage</button>
+
+        <script>
+          function sendToWhatsApp() {
+            const phoneNumber = "2001212633678";
+            const message = document.getElementById("message").value;
+            const encodedMessage = encodeURIComponent(message);
+            const url = (`https://wa.me/${phoneNumber}?text=${encodedMessage}`)
+            window.open(url, "_blank");
+          }
+        </script>
+
+      </form>
+    </div>
+
+
+    <div class="rating-section">
+      <h3>Reviw</h3>
+      <div id="star-rating">
+        <span class="star" data-value="1">★</span>
+        <span class="star" data-value="2">★</span>
+        <span class="star" data-value="3">★</span>
+        <span class="star" data-value="4">★</span>
+        <span class="star" data-value="5">★</span>
+
+      </div>
+      <form id="reviewForm">
+        <label for="review">write your review:</label>
+        <textarea id="review" name="review" rows="4" required></textarea>
+        <button type="submit">send your review</button>
+      </form>
+    </div>
+
+    <div class="overall-rating">
+      <h3>:overall rating of DR/Mojaddidi Jaco<span id="average-rating">0</span> / 5</h3>
+    </div>
+
+    <div class="reviews-container">
+      <h3>public opinions</h3>
+      <div id="reviews"></div>
+    </div>
+  </div>
+
+
+  <script src="../../scripts/ismailabualfotouh.js"></script></body>
+
+</html>

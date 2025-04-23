@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #777777;
+    font-size: 16px;
+}
+
+.FormContainer {
+    background-color: #FFF;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.FormContainer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #007DC8;
+    font-size: 2.8rem; 
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.InputGroup {
+    margin-bottom: 1.5rem;
+    text-align: left;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.InputWrapper {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 0.5rem;
+    position: relative;
+}
+
+.InputWrapper i {
+    color: #007DC8;
+    margin-right: 0.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #007DC8;
+    box-shadow: 0 0 8px rgba(0, 125, 200, 0.2);
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.SubmitButton {
+    background-color: #007DC8;
+    color: #FFF;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.SubmitButton:hover {
+    background-color: #1E5AD7;
+    box-shadow: 0 4px 12px rgba(30, 90, 215, 0.3);
+    transform: translateY(-2px);
+}
+
+.SubmitButton:focus {
+    outline: none;
+}
+
+.AlternateOption {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.AlternateOption a {
+    color: #007DC8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.AlternateOption a:hover {
+    text-decoration: underline;
+}
+
+.SocialLogin {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.SocialButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.SocialButton i {
+    margin-right: 0.5rem;
+}
+
+.SocialButton.Facebook {
+    background-color: #3b5998;
+    color: #FFF;
+}
+
+.SocialButton.Facebook:hover {
+    background-color: #2d4373;
+    transform: translateY(-2px);
+}
+
+.SocialButton.Gmail {
+    background-color: #db4437;
+    color: #FFF;
+}
+
+.SocialButton.Gmail:hover {
+    background-color: #c1351d;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .FormContainer {
+        padding: 2rem 1rem;
+    }
+
+    .InputWrapper {
+        flex-direction: column;
+    }
+
+    .InputWrapper i {
+        margin-bottom: 0.5rem;
+    }
+}
+
+.SubmitButton:hover,
+.SocialButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+    border-color: #1E5AD7;
+    box-shadow: 0 0 8px rgba(30, 90, 215, 0.3);
+}
+
+.SocialButton {
+    transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.Header {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.HomeButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #007DC8;
+    padding: 0.5rem 1rem;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.HomeButton i {
+    margin-right: 0.5rem;
+    font-size: 2.5rem;
+}

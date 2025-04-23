@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital</title>
+    <meta name="description" content="Global Hospital - Exceptional medical services and specialized doctors." />
+    <meta name="keywords"
+        content="hospital, medical services, clinic booking, specialized doctors, health, treatment" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/HomePageStyle.css" />
+</head>
+
+<body>
+    <!-- Header Section -->
+
+    <header id="header" class="Header-main-101">
+        <div class="container">
+            <!-- For small screens -->
+            <div class="header-mobile">
+                <div class="logo-mobile">Logo</div>
+                <div class="bars">
+                    <i class="fa-solid fa-magnifying-glass glass-icon" id="searchIcon"></i>
+                    <i class="fa-solid fa-bars toggle-menu" id="menuToggle"></i>
+                </div>
+            </div>
+            <div class="search-input" id="searchBar">
+                <input type="text" placeholder="Search.." />
+                <button aria-label="Search">Search</button>
+            </div>
+            <!-- For large screens -->
+            <div class="header-top">
+                <div class="logo">Logo</div>
+                <div class="contact-info">
+                    <div>
+                        <p>
+                            <i class="fa-regular fa-clock"></i>
+                        <div>
+                            Monday - Friday 08:00 - 20:00<br />
+                            Saturday and Sunday - 24 hours
+                        </div>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <i class="fa-regular fa-address-book"></i>
+                        <div>01010101<br />info@Hospital.com</div>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <i class="fa-regular fa-map"></i>
+                        <div>Clock Square<br />Minya Governorate</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav id="navbar">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="active"><a href="./Departments.html">Departments</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="./About.html">About Us</a></li>
+                    <li><a href="./Contact.html">Contact Us</a></li>
+                    <li><a href="./Login.html">Login</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <i class="fa-solid fa-magnifying-glass glass-icon  glass-icon2"></i>
+
+                    <div class="search">
+                        <input type="text" />
+                    </div>
+
+                    <a href="./pages/book_page_mah.html">
+                        <button class="btn-reservation">
+                            <i class="fa-regular fa-calendar"></i> Book a Clinic
+                        </button>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Mobile Menu (for small screens) -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./pages/Departments.html">Departments</a></li>
+                <li><a href="./pages/Doctors-Page.html">Doctors</a></li>
+                <li><a href="./pages/About.html">About Us</a></li>
+                <li><a href="./pages/Contact.html">Contact Us</a></li>
+                <li><a href="./pages/Login.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
+        <h1>امراض القلب</h1>
+   
+    <main class="department-page">
+        <img src="../../images/dep-imgs/القلب.webp" alt="" class="department-image">
+        <p>
+            قسم القلب في المستشفى متخصص في تشخيص وعلاج أمراض القلب والشرايين.
+            يتميز القسم بفريق طبي ذو خبرة عالية، وأحدث التقنيات لتقديم أفضل رعاية صحية للمرضى.
+        </p>
+    </main>
+</body>
+
+</html>

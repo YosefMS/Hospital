@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hospital</title>
+  <meta name="description" content="Global Hospital - Exceptional medical services and specialized doctors." />
+  <meta name="keywords" content="hospital, medical services, clinic booking, specialized doctors, health, treatment" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles/HomePageStyle.css" />
+</head>
+
+<body>
+  <!-- Header Section -->
+
+  <header id="header" class="Header-main-101">
+    <div class="container">
+      <!-- For small screens -->
+      <div class="header-mobile">
+        <div class="logo-mobile">Logo</div>
+        <div class="bars">
+          <i class="fa-solid fa-magnifying-glass glass-icon" id="searchIcon"></i>
+          <i class="fa-solid fa-bars toggle-menu" id="menuToggle"></i>
+        </div>
+      </div>
+      <div class="search-input" id="searchBar">
+        <input type="text" placeholder="Search.." />
+        <button aria-label="Search">Search</button>
+      </div>
+      <!-- For large screens -->
+      <div class="header-top">
+        <div class="logo">Logo</div>
+        <div class="contact-info">
+          <div>
+            <p>
+              <i class="fa-regular fa-clock"></i>
+            <div>
+              Monday - Friday 08:00 - 20:00<br />
+              Saturday and Sunday - 24 hours
+            </div>
+            </p>
+          </div>
+          <div>
+            <p>
+              <i class="fa-regular fa-address-book"></i>
+            <div>01010101<br />info@Hospital.com</div>
+            </p>
+          </div>
+          <div>
+            <p>
+              <i class="fa-regular fa-map"></i>
+            <div>Clock Square<br />Minya Governorate</div>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav id="navbar">
+        <nav id="navbar">
+          <ul>
+            <li class="active"><a href="../index.html">Home</a></li>
+            <li><a href="../pages/Departments.html">Departments</a></li>
+            <li><a href="../pages/Doctors-Page.html">Doctors</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="../pages/Contact.html">Contact Us</a></li>
+            <li><a href="../pages/Register.html">Register</a></li>
+            <li><a href="../pages/Login.html">Login</a></li>
+          </ul>
+          <div class="nav-actions">
+            <i class="fa-solid fa-magnifying-glass glass-icon  glass-icon2"></i>
+
+            <div class="search">
+              <input type="text" />
+            </div>
+
+            <a href="./pages/book_page_mah.html">
+              <button class="btn-reservation">
+                <i class="fa-regular fa-calendar"></i> Book a Clinic
+              </button>
+            </a>
+          </div>
+        </nav>
+    </div>
+
+    <!-- Mobile Menu (for small screens) -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./pages/Departments.html">Departments</a></li>
+        <li><a href="./pages/Doctors-Page.html">Doctors</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="./pages/Contact.html">Contact Us</a></li>
+        <li><a href="./pages/Login.html">Login</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Landing Page Section -->
+    <div class="landing-page">
+      <div class="container">
+        <div class="landing-page-info">
+          <h1>Global Hospital for Health Care</h1>
+          <p>
+            We work with the best doctors to treat patients with the highest quality care. Our mission is to provide the
+            best for our patients.
+          </p>
+          <button class="btn-reservation">
+            <i class="fa-regular fa-calendar"></i> Book a Clinic
+          </button>
+          <button class="btn-more-info">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- First Section -->
+    <section class="first-section">
+      <div class="container">
+        <div class="text-section">
+          <h3>Hospital Quality and Customer Care</h3>
+          <p>
+            At our hospital, we are committed to providing the best medical services with the highest quality standards.
+            Our goal is to achieve patient satisfaction and provide a distinguished treatment experience. We care about
+            customer comfort and safety, and we continuously strive to innovate and develop our health services.
+          </p>
+        </div>
+        <div class="image-container">
+          <div class="image-item">
+            <img src="https://globalcarehospital.com/wp-content/uploads/2020/05/residence-rooms-1-1.jpg.webp"
+              alt="Luxury hospital room" />
+          </div>
+          <div class="image-item">
+            <img src="https://globalcarehospital.com/wp-content/uploads/2020/04/Urology-Lithotripsy.jpg.webp"
+              alt="Modern medical equipment" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Features -->
+    <section>
+      <div class="main-features">
+        <div class="feature-card">
+          <i class="fas fa-ambulance"></i>
+          <h3>24/7 Emergency Service</h3>
+          <p>We are here to assist you anytime, around the clock.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-user-md"></i>
+          <h3>Specialized Doctors</h3>
+          <p>Our medical team includes top experts in various specialties.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-microscope"></i>
+          <h3>Advanced Technology</h3>
+          <p>We use the latest technologies to ensure the best treatment outcomes.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-notes-medical"></i>
+          <h3>Electronic Medical Records</h3>
+          <p>An integrated system to track patient conditions and manage information easily.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-heartbeat"></i>
+          <h3>Comprehensive Medical Care</h3>
+          <p>We provide integrated services to meet all your health needs.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-stethoscope"></i>
+          <h3>Accurate Diagnostics</h3>
+          <p>Using the latest devices for high-precision tests.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+      <div class="container">
+        <div class="text-section">
+          <h3>Hospital Departments and Specialties</h3>
+          <p>
+            At our hospital, we offer exceptional medical services through a comprehensive range of specialized
+            departments that ensure complete and integrated healthcare. We strive to provide patient comfort by
+            equipping each department with the latest technology and a highly skilled medical team.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="resutl">
+      <!-- Hospital Stats Section -->
+      <div class="hospital-stats">
+        <div class="stat-item">
+          <h2>5000+</h2>
+          <p>Treated Patients</p>
+        </div>
+        <div class="stat-item">
+          <h2>200+</h2>
+          <p>Doctors</p>
+        </div>
+        <div class="stat-item">
+          <h2>50+</h2>
+          <p>Medical Specialties</p>
+        </div>
+        <div class="stat-item">
+          <h2>10+</h2>
+          <p>International Accreditations</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="Footer" class="Footer-main-101">
+    <div class="container">
+      <!-- Map Section -->
+      <div class="link">
+        <h2>Map</h2>
+        <iframe title="Hospital Location Map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093874!2d-122.4219006846813!3d37.77492967975866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085818c1a4d5e1d%3A0xfb73c65f6e58c4ef!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1698700466496!5m2!1sen!2sus"
+          frameborder="0" style="border: 0; width: 100%; height: 200px" allowfullscreen>
+        </iframe>
+      </div>
+      <!-- Our Services Section -->
+      <div class="link">
+        <h2>Our Services</h2>
+        <ul>
+          <li><a href="#">Medical Consultations</a></li>
+          <li><a href="#">General Surgery</a></li>
+          <li><a href="#">Emergency Services</a></li>
+          <li><a href="#">Radiology and Laboratory</a></li>
+        </ul>
+      </div>
+      <!-- Useful Links Section -->
+      <div class="link">
+        <h2>Useful Links</h2>
+        <ul>
+          <li><a href="./pages/Departments.html">Departments</a></li>
+          <li><a href="./pages/Doctors-Page.html">Doctors</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="./pages/Contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Support Section -->
+      <div class="link">
+        <h2>Support</h2>
+        <ul>
+          <li><a href="#faq" aria-label="Go to FAQ">F.A.Q</a></li>
+          <li><a href="#technical-support" aria-label="Go to Technical Support">Technical Support</a></li>
+          <li><a href="./pages/Contact.html" aria-label="Go to Contact Us">Contact Us</a></li>
+          <li><a href="#feedback" aria-label="Go to Feedback">Send Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="social-links">
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"
+          aria-label="Go to Facebook"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter" aria-label="Go to Twitter"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"
+          aria-label="Go to Instagram"></i></a>
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"
+          aria-label="Go to LinkedIn"></i></a>
+    </div>
+
+    <!-- Footer Credit -->
+    <div class="footer-link-team">
+      <h3>
+        Create with 💙 by
+        <a href="https://www.yourteamwebsite.com" target="_blank">Your Team</a>
+      </h3>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="scripts/HomePageScript.js"></script>
+
+</html>
+</body>
+
+</html>

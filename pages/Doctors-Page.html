@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="Global Hospital - Exceptional medical services and specialized doctors." />
+  <meta name="keywords" content="hospital, medical services, clinic booking, specialized doctors, health, treatment" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Doctors Directory</title>
+  <link rel="stylesheet" href="../styles/card.css">
+
+</head>
+
+<body>
+
+  <header id="header" class="Header-main-101">
+    <div class="container">
+      <!-- For small screens -->
+      <div class="header-mobile">
+        <div class="logo-mobile">Logo</div>
+        <div class="bars">
+          <i class="fa-solid fa-magnifying-glass glass-icon" id="searchIcon"></i>
+          <i class="fa-solid fa-bars toggle-menu" id="menuToggle"></i>
+        </div>
+      </div>
+      <div class="search-input" id="searchBar">
+        <input type="text" placeholder="Search.." />
+        <button aria-label="Search">Search</button>
+      </div>
+      <!-- For large screens -->
+      <div class="header-top">
+        <div class="logo">Logo</div>
+        <div class="contact-info">
+          <div>
+            <p>
+              <i class="fa-regular fa-clock"></i>
+            <div>
+              Monday - Friday 08:00 - 20:00<br />
+              Saturday and Sunday - 24 hours
+            </div>
+            </p>
+          </div>
+          <div>
+            <p>
+              <i class="fa-regular fa-address-book"></i>
+            <div>01010101<br />info@Hospital.com</div>
+            </p>
+          </div>
+          <div>
+            <p>
+              <i class="fa-regular fa-map"></i>
+            <div>Clock Square<br />Minya Governorate</div>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Menu -->
+      <nav id="navbar">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./Departments.html">Departments</a></li>
+          <li class="active"><a href="./Doctors-Page.html">Doctors</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="./Contact.html">Contact Us</a></li>
+          <li><a href="./Register.html">Register</a></li>
+          <li><a href="./Login.html">Login</a></li>
+        </ul>
+        <div class="nav-actions">
+          <i class="fa-solid fa-magnifying-glass glass-icon  glass-icon2"></i>
+
+          <div class="search">
+            <input type="text" />
+          </div>
+
+          <a href="./book_page_mah.html">
+            <button class="btn-reservation">
+              <i class="fa-regular fa-calendar"></i> Book a Clinic
+            </button>
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Mobile Menu (for small screens) -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./Departments.html">Departments</a></li>
+        <li class="active"><a href="./Doctors-Page.html">Doctors</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="./Contact.html">Contact Us</a></li>
+        <li><a href="./Register.html">Register</a></li>
+        <li><a href="./Login.html">Login</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="Header-Doctor-Section">
+    <h1>Doctors Directory</h1>
+  </div>
+  <div class="card-container">
+    <!-- بطاقة الطبيب الأولى -->
+    <div class="card">
+      <div class="image-container">
+        <img src="../images/imgesdr/mario gad.jpg" alt="Doctor Image">
+      </div>
+      <div class="card-content">
+        <h2>Dr.Mario Gad </h2>
+        <p>Specialty:Physiotherapist</p>
+        <p>Rating: 4.4 ★</p>
+        <p>Address:shubri</p>
+
+        <a href="../pages/doctors-pages/MARIO Profil.html" class="pmario"> <button>View Profile</button></a>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="image-container">
+        <img src="../images/imgesdr/محمد الدمياطي نساء .jpg" alt="Doctor Image">
+      </div>
+      <div class="card-content">
+        <h2>Dr/Mahmoud-ALdoumyati, MD</h2>
+        <p>Specialty:obstetrics and gynecology</p>
+        <p>Rating: 3.4 ★</p>
+        <p>Address: 4 Main St, Van Buren, ME 04785</p>
+        <a href="../pages/doctors-pages/mahamaddomyaty.html" class="pmario"> <button>View Profile</button></a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image-container">
+        <img src="../images/imgesdr/دكتور روماتويدs.jpg" alt="Doctor Image">
+      </div>
+      <div class="card-content">
+        <h2>Dr. Khaled Al-Qandilids, MD</h2>
+        <p>Specialty:Rheumatoid and immune diseasesy</p>
+        <p>Rating: 3.4 ★</p>
+        <p>Address: 4 Main St, Van Buren, ME 04785</p>
+        <a href="../pages/doctors-pages/romatoud.html" class="pmario"> <button>View Profile</button></a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image-container">
+        <img src="../images/imgesdr/احمد صلاح اخصائي نفسي .jpg" alt="Doctor Image">
+      </div>
+      <div class="card-content">
+        <h2>Dr. Ahmed Salahs, MD</h2>
+        <p>Specialty:Psychotherapies</p>
+        <p>Rating: 3.4 ★</p>
+        <p>Address: 4 Main St, Van Buren, ME 04785</p>
+        <a href="../pages/doctors-pages/ahmadsalah.html" class="pmario"> <button>View Profile</button></a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image-container">
+        <img src="../images/imgesdr/حسام قسم جراحه تجميليه .jpg" alt="Doctor Image">
+      </div>
+      <div class="card-content">
+        <h2>Dr.Hossam Qasimm, MD</h2>
+        <p>Specialty:Plastic surgery </p>
+        <p>Rating: 3.4 ★</p>
+        <p>Address: 4 Main St, Van Buren, ME 04785</p>
+        <a href="./doctors-pages/hosammgasam.html" class="pmario"> <button>View Profile</button></a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image-container">
+        <img src="../images/imgesdr/دكتور هشام عظام .jpg" alt="Doctor Image">
+      </div>
+      <div class="card-content">
+        <h2>Dr. hisham khaled, MD</h2>
+        <p>Specialty:orthopedics and joint replacemen</p>
+        <p>Rating: 3.4 ★</p>
+        <p>Address: 4 Main St, Van Buren, ME 04785</p>
+        <a href="./doctors-pages/MARIO Profil.html" class="pmario"> <button>View Profile</button></a>
+      </div>
+    </div>
+    <!-- بطاقة الطبيب الثانية -->
+    <div class="card">
+      <div class="image-container">
+        <img src="../images/imgesdr/mohamed-elkady-ear-nose-and-throat_20180524140139874.jpg " alt="Doctor Image">
+      </div>
+      <div class="card-content">
+        <h2>Dr.mohamed-elkadyt, MD</h2>
+        <p>Specialty:ear-nose-end throat</p>
+        <p>Rating: 4.3 ★</p>
+        <p>Address: 4 Main St, Van Buren, ME 04785</p>
+        <a href="./doctors-pages/mohamedelkady.html" class="pmario"> <button>View Profile</button></a>
+      </div>
+    </div>
+
+    <!-- بطاقة الطبيب الثالثة -->
+    <div class="card">
+      <div class="image-container">
+        <img src="../images/imgesdr/img_4838.jpg" alt="Doctor Image">
+      </div>
+      <div class="card-content">
+        <h2>Dr.Mojaddidi surgery, MD</h2>
+        <p>Specialty: heart surger</p>
+        <p>Rating: 4.8 ★</p>
+        <p>Address: 12 Elm St, Portland, ME 04101</p>
+        <a href="./doctors-pages/kingmagdyyagoub.html" class="pmario"> <button>View Profile</button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- start footer -->
+
+  <footer id="Footer" class="Footer-main-101">
+    <div class="container">
+      <!-- Map Section -->
+      <div class="link">
+        <h2>Map</h2>
+        <iframe title="Hospital Location Map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093874!2d-122.4219006846813!3d37.77492967975866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085818c1a4d5e1d%3A0xfb73c65f6e58c4ef!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1698700466496!5m2!1sen!2sus"
+          frameborder="0" style="border: 0; width: 100%; height: 200px" allowfullscreen>
+        </iframe>
+      </div>
+      <!-- Our Services Section -->
+      <div class="link">
+        <h2>Our Services</h2>
+        <ul>
+          <li><a href="#">Medical Consultations</a></li>
+          <li><a href="#">General Surgery</a></li>
+          <li><a href="#">Emergency Services</a></li>
+          <li><a href="#">Radiology and Laboratory</a></li>
+        </ul>
+      </div>
+      <!-- Useful Links Section -->
+      <div class="link">
+        <h2>Useful Links</h2>
+        <ul>
+          <li><a href="./Departments.html">Departments</a></li>
+          <li><a href="./Doctors-Page.html">Doctors</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="./Contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Support Section -->
+      <div class="link">
+        <h2>Support</h2>
+        <ul>
+          <li><a href="#faq" aria-label="Go to FAQ">F.A.Q</a></li>
+          <li><a href="#technical-support" aria-label="Go to Technical Support">Technical Support</a></li>
+          <li><a href="./Contact.html" aria-label="Go to Contact Us">Contact Us</a></li>
+          <li><a href="#feedback" aria-label="Go to Feedback">Send Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="social-links">
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"
+          aria-label="Go to Facebook"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter" aria-label="Go to Twitter"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"
+          aria-label="Go to Instagram"></i></a>
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"
+          aria-label="Go to LinkedIn"></i></a>
+    </div>
+
+    <!-- Footer Credit -->
+    <div class="footer-link-team">
+      <h3>
+        Create with 💙 by
+        <a href="https://www.yourteamwebsite.com" target="_blank">Your Team</a>
+      </h3>
+    </div>
+  </footer>
+
+
+  <script src="../scripts/HomePageScript.js"></script>
+  <script src="../scripts/card.js"></script>
+</body>
+
+</html>
